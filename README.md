@@ -15,7 +15,7 @@ Portfolio-safe case studies and screenshots. Private source stays private.
 <p>
 <a href="./clubdrop/case-study.md"><img src="./clubdrop/screenshots/01-hero-issue.png" alt="Clubdrop Issue template" width="32%" /></a>
 <a href="./giaotrinh/case-study.md"><img src="./giaotrinh/screenshots/03-listing-detail.png" alt="GiaoTrinh listing detail" width="32%" /></a>
-<a href="./sushiloop/case-study.md"><img src="./sushiloop/screenshots/03-gameplay-core.png" alt="SushiLoop gameplay" width="32%" /></a>
+<a href="./sushiloop/case-study.md"><img src="./sushiloop/screenshots/03-gameplay-hero.png" alt="SushiLoop gameplay" width="32%" /></a>
 </p>
 
 ## Open source

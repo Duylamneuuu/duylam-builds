@@ -22,6 +22,12 @@ This folder is a public presentation layer only. The source repository remains p
 
 **Portfolio ready with caveats.** The current PlayMode inventory contains 35 tests; the portfolio audit was interrupted by a locked Windows desktop after 4 tests had run without an observed failure, so the suite is not claimed as fully passing. No Android validation is claimed.
 
-![SushiLoop core gameplay screen](screenshots/03-gameplay-core.png)
+Hand-drawn runtime captures (Main Menu · Level 5 · Win):
 
-**Read:** [case-study.md](./case-study.md) for the concise public case study and the full curated screenshot set (main menu, level select, gameplay, win, and jam/restart).
+<p>
+<img src="screenshots/01-main-menu.png" alt="SushiLoop main menu" width="32%" />
+<img src="screenshots/03-gameplay-hero.png" alt="SushiLoop Level 5 gameplay" width="32%" />
+<img src="screenshots/04-win-result.png" alt="SushiLoop win result" width="32%" />
+</p>
+
+**Read:** [case-study.md](./case-study.md) for the concise public case study and the full curated screenshot set (main menu, level select, Level 5 hero, win, Level 20, and optional jam).
