@@ -30,7 +30,7 @@ The strongest story is the full workflow:
 
 ## Screenshots
 
-Captured from the live development Worker (`clubdrop-dev`). Buyer frames are public template demos. The AI-review frame uses a synthetic club only; no real buyer PII. These are development/demo frames, not a production-launch or traction claim.
+Captured from the live development Worker (`clubdrop-dev`). Buyer frames are public template demos. The AI-review crop uses a synthetic club only; no real buyer PII. These are development/demo frames, not a production-launch or traction claim.
 
 ### Hero — Issue template (buyer page)
 
@@ -56,14 +56,8 @@ High-contrast poster energy for campus drops.
 
 ![Clubdrop Signal-template buyer campaign page](screenshots/04-template-signal.png)
 
-### Template range — Index
+### Supporting — required human review (crop)
 
-Product-grid collection page with preorder CTA.
+Tight crop of the organizer confirmation step after AI structuring: price, deadline, payment, pickup, and explicit review before creating a draft. Supporting evidence only — not a buyer-facing hero.
 
-![Clubdrop Index-template buyer campaign page](screenshots/05-template-index.png)
-
-### Supporting — required human review
-
-After one AI structuring pass, the organizer must confirm price, deadline, payment, pickup, and confirmation before creating a reviewed draft. This is the constrained-AI story, not a buyer-facing hero.
-
-![Clubdrop organizer review confirming price deadline payment and pickup](screenshots/14-ai-review-required.png)
+![Clubdrop organizer review crop confirming campaign details](screenshots/06-ai-review-crop.png)
