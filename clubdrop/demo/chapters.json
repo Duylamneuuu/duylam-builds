@@ -1,0 +1,36 @@
+{
+  "title": "Clubdrop \u2014 public buyer demo",
+  "duration": 61.999,
+  "chapters": [
+    {
+      "id": "home",
+      "title": "Home",
+      "start": 0.0,
+      "end": 12.9
+    },
+    {
+      "id": "issue",
+      "title": "Issue template",
+      "start": 12.9,
+      "end": 24.727
+    },
+    {
+      "id": "commons",
+      "title": "Template contrast",
+      "start": 24.727,
+      "end": 37.212
+    },
+    {
+      "id": "preorder",
+      "title": "Preorder form",
+      "start": 37.212,
+      "end": 49.815
+    },
+    {
+      "id": "success",
+      "title": "Confirmation",
+      "start": 49.815,
+      "end": 62.0
+    }
+  ]
+}
