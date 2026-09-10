@@ -17,7 +17,7 @@ Clubs still run drops through a chat post + Google Form + spreadsheet + DMs. Dis
 ## What I built
 
 - Canonical campaign model + five fixed templates
-- Organizer workspace: setup, preview/publish, preorder roster
+- Organizer workspace: AI or manual setup, required review, preview/publish, preorder roster
 - Buyer link: preorder without an account
 - Constrained AI draft → required organizer review → publish
 - Deterministic buyer/organizer flows on structured data
@@ -36,7 +36,9 @@ Demo-ready on a development Worker. Closed-beta prep in progress. **Not** a prod
 
 ## Screenshots
 
-Live `clubdrop-dev` Worker. Synthetic Keybound Club merch. Buyer pages only.
+Live `clubdrop-dev` Worker. Synthetic Keybound Club / Campus Creative Demo Club data.
+
+### Buyer — fixed templates
 
 | Issue (hero) | Commons |
 | --- | --- |
@@ -44,3 +46,18 @@ Live `clubdrop-dev` Worker. Synthetic Keybound Club merch. Buyer pages only.
 | ![Issue](screenshots/01-hero-issue.png) | ![Commons](screenshots/02-template-commons.png) |
 | **Atelier** — quiet premium split | **Signal** — high-contrast poster |
 | ![Atelier](screenshots/03-template-atelier.png) | ![Signal](screenshots/04-template-signal.png) |
+
+### Organizer — AI drafts, human decides
+
+<p>
+<img src="screenshots/05-organizer-ai-setup.png" alt="Organizer AI setup: notes into draft" width="48%" />
+<img src="screenshots/06-organizer-review-publish.png" alt="Organizer review before publish + template pick" width="48%" />
+</p>
+
+<p>
+<img src="screenshots/07-organizer-roster.png" alt="Organizer preorder roster" width="640" />
+</p>
+
+1. **AI setup** — paste campaign notes; AI is optional; manual setup always available  
+2. **Review / publish** — organizer keeps template, price, and publish control after a reviewed draft  
+3. **Roster** — synthetic buyer preorder after publish (demo data only)

@@ -6,7 +6,7 @@ Campus products with hard constraints, plus a portrait Unity puzzle with hand-dr
 
 | Project | Focus | Remember this |
 | --- | --- | --- |
-| **[Clubdrop](./clubdrop/case-study.md)** | Full-stack · AI-assisted | Constrained AI drafts club merch campaigns; organizers keep price/deadline; buyers preorder with no account. |
+| **[Clubdrop](./clubdrop/case-study.md)** | Full-stack · AI-assisted | Constrained AI drafts club merch campaigns; organizer reviews then publishes; buyers preorder with no account. |
 | **[GiaoTrinh](./giaotrinh/case-study.md)** | Full-stack · privacy | Vietnam campus exchange — browse anonymously; contact only after an explicit safety step. |
 | **[SushiLoop](./sushiloop/case-study.md)** | Unity · game | Hand-drawn portrait sushi-routing puzzle; 20 levels, deterministic loop, structured AI workflow. |
 
