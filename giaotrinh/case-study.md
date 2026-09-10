@@ -34,7 +34,13 @@ Feature-complete and deployment-ready on `main`. Public production verification 
 
 ## Screenshots
 
-Captured from local fixture mode (`QA_FIXTURE_MODE`) with synthetic `QA Seller` demo listings. Contact is never shown until the safety acknowledgement, and these frames stop at that step, so no seller contact is exposed.
+Captured from local fixture mode (`QA_FIXTURE_MODE`) with synthetic demo listings. Contact is never shown until the safety acknowledgement, and these frames stop at that step, so no seller contact is exposed.
+
+### Search / discovery
+
+Accent-aware search for `casio` — one matching listing with a real product photo (not a repeated fixture tile).
+
+![GiaoTrinh search results for casio](screenshots/02-discovery.png)
 
 ### Marketplace home
 
@@ -44,7 +50,7 @@ Browse grid with Vietnamese search, category chips, and filters.
 
 ### Listing detail
 
-A complete listing — gallery, price, condition, school, meetup, and seller — with contact hidden behind `Liên hệ`.
+Casio listing — gallery, price, condition, school, meetup — with contact hidden behind `Liên hệ`.
 
 ![GiaoTrinh listing detail page with contact hidden](screenshots/03-listing-detail.png)
 

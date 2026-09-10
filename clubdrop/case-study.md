@@ -28,13 +28,15 @@ The strongest story is the full workflow:
 
 **messy organizer input → AI-assisted structuring → required human review → polished campaign page → organized preorder roster**
 
+The screenshots below emphasize the buyer-facing result of that workflow: four distinct template renderers served from structured campaign data (zero LLM on public routes). Organizer AI review is described above rather than shown as a hero frame.
+
 ## Screenshots
 
-Captured from the live development Worker (`clubdrop-dev`). Buyer frames are public template demos. The AI-review crop uses a synthetic club only; no real buyer PII. These are development/demo frames, not a production-launch or traction claim.
+Captured from the live development Worker (`clubdrop-dev`). Buyer frames are public template demos with synthetic Keybound Club merch. These are development/demo frames, not a production-launch or traction claim.
 
 ### Hero — Issue template (buyer page)
 
-Editorial magazine layout: masthead, product photography, deadline, and no-account CTA. Served from structured campaign data with zero LLM on the buyer route.
+Editorial magazine layout: masthead, product photography, deadline, and no-account CTA.
 
 ![Clubdrop Issue-template buyer campaign page](screenshots/01-hero-issue.png)
 
@@ -55,9 +57,3 @@ Quiet premium split: typography + product flat-lay.
 High-contrast poster energy for campus drops.
 
 ![Clubdrop Signal-template buyer campaign page](screenshots/04-template-signal.png)
-
-### Supporting — required human review (crop)
-
-Tight crop of the organizer confirmation step after AI structuring: price, deadline, payment, pickup, and explicit review before creating a draft. Supporting evidence only — not a buyer-facing hero.
-
-![Clubdrop organizer review crop confirming campaign details](screenshots/06-ai-review-crop.png)

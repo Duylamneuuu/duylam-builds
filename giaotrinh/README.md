@@ -4,7 +4,7 @@ GiaoTrinh is a Vietnam-only student exchange for lawful textbooks and study reso
 
 The source repository remains private. This folder is a public presentation layer with portfolio-safe screenshots and a concise case study.
 
-![GiaoTrinh desktop marketplace home feed](screenshots/01-home.png)
+![GiaoTrinh search discovery for a Casio listing](screenshots/02-discovery.png)
 
 ## Highlights
 
