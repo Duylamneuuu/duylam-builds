@@ -2,7 +2,9 @@
 
 **In one line:** Portrait Unity 6 sushi-routing puzzle prototype — deterministic campaign loop, built with a structured AI-assisted workflow (humans keep design authority).
 
-![SushiLoop core gameplay](screenshots/03-gameplay-core.png)
+<p>
+<img src="screenshots/03-gameplay-hero.png" alt="SushiLoop Level 5 gameplay (hand-drawn runtime)" width="280" />
+</p>
 
 ## Overview
 
@@ -34,35 +36,34 @@ The current PlayMode inventory contains 35 tests. The audit run reached 4/35 wit
 
 ## Screenshots
 
-Portrait 1080×1920 frames from the current clean 2D foundation pass, drawn from the project's QC captures. The hero frame is the core gameplay screen.
+Portrait 1080×1920 Game View captures from the hand-drawn runtime art pass (`portfolio-visual-correction`, verified source commit). Hero is **Level 5 gameplay**. Frames are real Unity captures — not generated mockups.
 
-### Gameplay (hero)
+### Main gallery
 
-Conveyor loop, three queues, the active customer/order, and Rotate state.
+Main Menu → Level 5 Gameplay → Win Result
 
-![SushiLoop core gameplay screen](screenshots/03-gameplay-core.png)
+<p>
+<img src="screenshots/01-main-menu.png" alt="SushiLoop main menu" width="32%" />
+<img src="screenshots/03-gameplay-hero.png" alt="SushiLoop Level 5 gameplay" width="32%" />
+<img src="screenshots/04-win-result.png" alt="SushiLoop win result" width="32%" />
+</p>
 
-### Main menu
+### Additional
 
-![SushiLoop main menu](screenshots/01-main-menu.png)
+Level Select and Level 20 gameplay
 
-### Level select
+<p>
+<img src="screenshots/02-level-select.png" alt="SushiLoop level select" width="32%" />
+<img src="screenshots/05-level20.png" alt="SushiLoop Level 20 gameplay" width="32%" />
+</p>
 
-Data-driven 20-level campaign progression.
+### Optional — Jam / restart
 
-![SushiLoop level select](screenshots/02-level-select.png)
+No-moves failure state with a restart path (supporting only; not the hero).
 
-### Win result
-
-Win/result popup with progression affordances.
-
-![SushiLoop win result screen](screenshots/06-win-result.png)
-
-### Jam / restart
-
-The no-moves failure state with a restart path.
-
-![SushiLoop jam / restart state](screenshots/09-jam-result.png)
+<p>
+<img src="screenshots/06-jam-result.png" alt="SushiLoop jam / restart state" width="220" />
+</p>
 
 ## Tech
 
