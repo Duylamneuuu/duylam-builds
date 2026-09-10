@@ -1,31 +1,28 @@
 # Selected Work — Duy Lam
 
-A public showcase of selected product and engineering work. Source repositories may remain private; this repository contains only portfolio-safe screenshots, demo media, and concise case studies.
+Portfolio-safe case studies and screenshots. Private source stays private.
 
-## Featured work
+## Featured
 
-### GiaoTrinh
-Student marketplace / exchange product focused on study materials and campus use cases.
+| Project | One line | Read |
+| --- | --- | --- |
+| **[Clubdrop](./clubdrop/case-study.md)** | AI helps structure club merch campaigns; organizers keep control of price, deadline, and publish. | [case study](./clubdrop/case-study.md) |
+| **[GiaoTrinh](./giaotrinh/case-study.md)** | Campus textbook exchange with anonymous browse and contact revealed only after a safety step. | [case study](./giaotrinh/case-study.md) · [folder](./giaotrinh/README.md) |
+| **[SushiLoop](./sushiloop/case-study.md)** | Unity portrait puzzle prototype built with a structured AI-assisted workflow. | [case study](./sushiloop/case-study.md) · [folder](./sushiloop/README.md) |
 
-[Read the case study](./giaotrinh/case-study.md) · [portfolio folder](./giaotrinh/README.md)
+### Preview
 
-### Clubdrop
-AI-assisted merch preorder campaign builder for student clubs. AI structures messy organizer input into a reviewable draft; organizers remain in control of prices, deadlines, publishing, and buyer operations.
-
-[Read the case study](./clubdrop/case-study.md)
-
-### SushiLoop
-Unity mobile puzzle competition prototype developed with extensive AI-assisted workflows.
-
-[Read the case study](./sushiloop/case-study.md) · [portfolio folder](./sushiloop/README.md)
+<p>
+<a href="./clubdrop/case-study.md"><img src="./clubdrop/screenshots/01-hero-issue.png" alt="Clubdrop Issue template" width="32%" /></a>
+<a href="./giaotrinh/case-study.md"><img src="./giaotrinh/screenshots/03-listing-detail.png" alt="GiaoTrinh listing detail" width="32%" /></a>
+<a href="./sushiloop/case-study.md"><img src="./sushiloop/screenshots/03-gameplay-core.png" alt="SushiLoop gameplay" width="32%" /></a>
+</p>
 
 ## Open source
 
-- [drizzle-doctor](https://github.com/Duylamneuuu/drizzle-doctor) — migration-history auditing tooling for Drizzle/PostgreSQL workflows.
-- [clisemver](https://github.com/Duylamneuuu/clisemver) — semantic-version compatibility checking for command-line interfaces.
+- [drizzle-doctor](https://github.com/Duylamneuuu/drizzle-doctor) — Drizzle/PostgreSQL migration-history auditing
+- [clisemver](https://github.com/Duylamneuuu/clisemver) — semantic-version compatibility checks for CLIs
 
-## About this repository
+## About
 
-This is a presentation layer, not a source-code mirror. It intentionally excludes private application code, credentials, user data, internal deployment configuration, and raw development logs.
-
-See [CURATION.md](./CURATION.md) for the rules used before anything from a private project is published here.
+Presentation layer only — no app source, secrets, user data, or internal deploy config. Rules: [CURATION.md](./CURATION.md).

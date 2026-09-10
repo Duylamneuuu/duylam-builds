@@ -1,59 +1,44 @@
 # Clubdrop
 
-**AI-assisted merch preorder campaign builder for student clubs.**
-
-Clubdrop replaces the familiar campus workflow of a social post, a Google Form, a spreadsheet, and repeated DMs with a cleaner campaign flow: organizers describe a drop, review structured details, publish a polished page, and manage incoming preorders from one workspace.
-
-## What I built
-
-The product uses a canonical campaign model and five fixed visual templates instead of generating websites from scratch. Buyers can open a shared campaign link and submit a preorder without creating an account. Organizers get a protected workspace for campaign setup, preview/publish controls, and preorder management.
-
-The AI layer is deliberately constrained. It helps structure messy organizer notes into a candidate draft, but the organizer must review authoritative details such as price, deadline, payment instructions, and pickup information before saving. Public buyer pages do not depend on an LLM.
-
-## Why I built it this way
-
-The goal was not to recreate a full e-commerce platform. Student clubs usually need a lightweight campaign tool for occasional drops, not inventory, shipping, marketplace discovery, or platform-held payments. Fixed templates keep the output polished and predictable while the structured data model keeps buyer and organizer flows deterministic.
-
-## Stack
-
-React Router, React, TypeScript, Cloudflare Workers, Supabase, Zod, Dify, Vitest, and Playwright.
-
-## Current status
-
-Demo-ready on a development Worker. Product polish is complete and closed-beta preparation is in progress. This is not presented as a production launch or traction claim.
-
-## Portfolio notes
-
-The strongest story is the full workflow:
-
-**messy organizer input → AI-assisted structuring → required human review → polished campaign page → organized preorder roster**
-
-The screenshots below emphasize the buyer-facing result of that workflow: four distinct template renderers served from structured campaign data (zero LLM on public routes). Organizer AI review is described above rather than shown as a hero frame.
-
-## Screenshots
-
-Captured from the live development Worker (`clubdrop-dev`). Buyer frames are public template demos with synthetic Keybound Club merch. These are development/demo frames, not a production-launch or traction claim.
-
-### Hero — Issue template (buyer page)
-
-Editorial magazine layout: masthead, product photography, deadline, and no-account CTA.
+**In one line:** AI-assisted merch preorder campaigns for student clubs — AI drafts, organizer decides, buyers get a polished page with no account.
 
 ![Clubdrop Issue-template buyer campaign page](screenshots/01-hero-issue.png)
 
-### Template range — Commons
+## Problem
 
-Lifestyle lookbook direction; proves templates are distinct, not skins.
+Clubs still run drops through a chat post + Google Form + spreadsheet + DMs. Discovery is messy, details go stale, and there is no clean public page for buyers.
 
-![Clubdrop Commons-template buyer campaign page](screenshots/02-template-commons.png)
+## What I built
 
-### Template range — Atelier
+- Canonical campaign model + **five fixed templates** (not generated websites)
+- Organizer workspace: setup, preview/publish, preorder roster
+- Buyer link: preorder **without an account**
+- **Constrained AI:** structures messy notes into a draft; organizer must review price, deadline, payment, and pickup before save
+- Public buyer pages are **zero-LLM**
 
-Quiet premium split: typography + product flat-lay.
+## Why this shape
 
-![Clubdrop Atelier-template buyer campaign page](screenshots/03-template-atelier.png)
+Clubs need occasional campaign tooling, not inventory, shipping, or a marketplace. Fixed templates stay polished; structured data keeps buyer/organizer flows deterministic. AI is optional assistance, not the source of truth.
 
-### Template range — Signal
+## Flow
 
-High-contrast poster energy for campus drops.
+`messy notes → AI structure → required human review → publish → buyer preorder → roster`
 
-![Clubdrop Signal-template buyer campaign page](screenshots/04-template-signal.png)
+## Stack
+
+React Router · React · TypeScript · Cloudflare Workers · Supabase · Zod · Dify · Vitest · Playwright
+
+## Status
+
+Demo-ready on a development Worker. Closed-beta prep in progress. **Not** a production launch or traction claim.
+
+## Screenshots
+
+Live `clubdrop-dev` Worker. Synthetic Keybound Club merch. Buyer pages only.
+
+| | |
+| --- | --- |
+| **Issue (hero)** — magazine layout, product photo, deadline, no-account CTA | **Commons** — lifestyle lookbook; templates are distinct |
+| ![Issue](screenshots/01-hero-issue.png) | ![Commons](screenshots/02-template-commons.png) |
+| **Atelier** — quiet premium split | **Signal** — high-contrast poster energy |
+| ![Atelier](screenshots/03-template-atelier.png) | ![Signal](screenshots/04-template-signal.png) |

@@ -24,4 +24,4 @@ This folder is a public presentation layer only. The source repository remains p
 
 ![SushiLoop core gameplay screen](screenshots/03-gameplay-core.png)
 
-See [case-study.md](./case-study.md) for the concise public case study and the full curated screenshot set (main menu, level select, gameplay, win, and jam/restart).
+**Read:** [case-study.md](./case-study.md) for the concise public case study and the full curated screenshot set (main menu, level select, gameplay, win, and jam/restart).

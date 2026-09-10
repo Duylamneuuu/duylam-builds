@@ -1,10 +1,12 @@
-# SushiLoop — Case Study
+# SushiLoop
+
+**In one line:** Portrait Unity 6 sushi-routing puzzle prototype — deterministic campaign loop, built with a structured AI-assisted workflow (humans keep design authority).
+
+![SushiLoop core gameplay](screenshots/03-gameplay-core.png)
 
 ## Overview
 
-SushiLoop is a completed Unity 6 game prototype built for a competition. It is a portrait 2D puzzle game about routing sushi plates from three queues around an eight-slot conveyor so waiting customers receive the correct orders.
-
-The project combines a fixed 20-level campaign, 15 stable sushi types, deterministic gameplay rules, Level Select, saved progression, Win and Jam/Restart states, and responsive portrait presentation.
+Completed competition prototype: route sushi plates from three queues around an eight-slot conveyor so customers get the right orders. Includes a 20-level campaign, 15 sushi types, Level Select, saved progression, Win/Jam states, and responsive portrait UI.
 
 ## What I worked on
 
