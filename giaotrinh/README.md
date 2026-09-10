@@ -2,7 +2,9 @@
 
 Vietnam campus exchange for textbooks and study supplies. Browse without an account; contact only after a safety step — no checkout or chat.
 
-![Casio listing detail](screenshots/03-listing-detail.png)
+<p>
+<img src="screenshots/02-listing-detail.png" alt="Casio listing detail" width="480" />
+</p>
 
 **Read:** [case-study.md](./case-study.md)
 

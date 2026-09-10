@@ -1,9 +1,11 @@
 # Clubdrop
 
-AI-assisted merch preorder campaign builder for student clubs.
+AI-assisted merch preorder campaigns for student clubs — constrained AI drafts, organizer control, no-account buyer pages.
 
-![Issue template buyer page](screenshots/01-hero-issue.png)
+<p>
+<img src="screenshots/01-hero-issue.png" alt="Issue template buyer page" width="480" />
+</p>
 
 **Read:** [case-study.md](./case-study.md)
 
-Private source. This folder is portfolio-safe screenshots + case study only.
+Private source. Portfolio-safe screenshots + case study only.

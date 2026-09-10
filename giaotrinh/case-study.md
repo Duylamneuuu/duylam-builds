@@ -2,23 +2,28 @@
 
 **In one line:** Vietnam campus exchange for textbooks and study supplies — browse without an account; contact only after an explicit safety step. No checkout, escrow, shipping, or chat.
 
-![GiaoTrinh Casio listing detail](screenshots/03-listing-detail.png)
+<p>
+<img src="screenshots/02-listing-detail.png" alt="GiaoTrinh Casio listing detail" width="720" />
+</p>
+
+## The decision that matters
+
+Contact details **never** sit on public listing DTOs. They are revealed per listing, after a safety acknowledgement, through a no-store endpoint. That is the product fix for “phone number pasted into a group chat.”
 
 ## Problem
 
-Students already trade materials in group chats. Discovery is fragmented, Vietnamese search is weak, and phone numbers pasted into posts leak or go stale.
+Students already trade materials in group chats. Discovery is fragmented, Vietnamese search is weak, and phone numbers in posts leak or go stale.
 
 ## What I built
 
 - Public feed, accent-insensitive Vietnamese search, category/school filters, listing detail, seller profile
 - Sale-only listings (categories, condition, VND, school, meetup, 1–5 images, 8-active cap)
 - `.edu.vn` seller eligibility (domain-suffix check), verification gate
-- **Privacy:** contact never on public DTOs; revealed per listing via no-store endpoint after safety acknowledgement
 - Default-deny mutations, private image proxy, HMAC public image tokens
 
 ## Why this shape
 
-The job is in-person campus exchange of physical study materials — so payments and chat stay out. Anonymous browse matches real behavior; verification gates selling only. Contact off public payloads fixes the group-chat leak.
+In-person campus exchange of physical study materials — so payments and chat stay out. Anonymous browse matches real behavior; verification gates selling only.
 
 ## Engineering highlight
 
@@ -36,11 +41,16 @@ Feature-complete and deployment-ready on `main`. Public production verification 
 
 Local fixture mode (`QA_FIXTURE_MODE`), synthetic listings. Frames stop before contact reveal.
 
-1. **Search** — `casio` → one real product photo  
-   ![discovery](screenshots/02-discovery.png)
+<p>
+<img src="screenshots/01-discovery.png" alt="Search casio" width="48%" />
+<img src="screenshots/02-listing-detail.png" alt="Listing detail" width="48%" />
+</p>
+<p>
+<img src="screenshots/03-safety.png" alt="Safety step before contact" width="48%" />
+<img src="screenshots/04-mobile.png" alt="Mobile home 390px" width="48%" />
+</p>
+
+1. **Search** — `casio` → real product photo  
 2. **Listing detail** — gallery + meetup; contact still hidden  
-   ![detail](screenshots/03-listing-detail.png)
 3. **Safety step** — acknowledgement before any contact  
-   ![safety](screenshots/04-core-flow.png)
-4. **Mobile** — 390px home  
-   ![mobile](screenshots/05-mobile.png)
+4. **Mobile** — 390px home
