@@ -22,6 +22,6 @@ This folder is a public presentation layer only. The source repository remains p
 
 **Portfolio ready with caveats.** The current PlayMode inventory contains 35 tests; the portfolio audit was interrupted by a locked Windows desktop after 4 tests had run without an observed failure, so the suite is not claimed as fully passing. No Android validation is claimed.
 
-See [case-study.md](./case-study.md) for the concise public case study.
+![SushiLoop core gameplay screen](screenshots/03-gameplay-core.png)
 
-Curated gameplay screenshots and demo media will be added here separately from the private source repository.
+See [case-study.md](./case-study.md) for the concise public case study and the full curated screenshot set (main menu, level select, gameplay, win, and jam/restart).

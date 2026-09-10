@@ -30,6 +30,38 @@ During the September 2026 portfolio audit:
 
 The current PlayMode inventory contains 35 tests. The audit run reached 4/35 without an observed failure before a locked Windows desktop left Unity unfocused, so this case study does **not** claim that the full current PlayMode suite passed. Android device validation is also not claimed.
 
+## Screenshots
+
+Portrait 1080×1920 frames from the current clean 2D foundation pass, drawn from the project's QC captures. The hero frame is the core gameplay screen.
+
+### Gameplay (hero)
+
+Conveyor loop, three queues, the active customer/order, and Rotate state.
+
+![SushiLoop core gameplay screen](screenshots/03-gameplay-core.png)
+
+### Main menu
+
+![SushiLoop main menu](screenshots/01-main-menu.png)
+
+### Level select
+
+Data-driven 20-level campaign progression.
+
+![SushiLoop level select](screenshots/02-level-select.png)
+
+### Win result
+
+Win/result popup with progression affordances.
+
+![SushiLoop win result screen](screenshots/06-win-result.png)
+
+### Jam / restart
+
+The no-moves failure state with a restart path.
+
+![SushiLoop jam / restart state](screenshots/09-jam-result.png)
+
 ## Tech
 
 Unity 6 · C# · URP 2D · data-driven level assets · uGUI / TextMeshPro · Unity Test Framework · Unity Editor automation / MCP-assisted workflow
