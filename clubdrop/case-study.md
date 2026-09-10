@@ -28,4 +28,36 @@ The strongest story is the full workflow:
 
 **messy organizer input → AI-assisted structuring → required human review → polished campaign page → organized preorder roster**
 
-Selected screenshots and media will be added here after final curation.
+## Screenshots
+
+Captured from the development Worker. Authenticated organizer screens use a synthetic club (`Campus Creative Demo Club`) and one synthetic preorder (`Demo Buyer` / `0900000000`); the organizer email was cropped out. These are development/demo frames, not a production-launch or traction claim.
+
+### Required human review (core AI story)
+
+The organizer must confirm authoritative details — price, deadline, payment, pickup, and confirmation — after a single AI structuring pass, before anything is saved.
+
+![Clubdrop AI review screen requiring organizer confirmation of price, deadline, payment and pickup](screenshots/14-ai-review-required.png)
+
+### Organizer dashboard
+
+Signed-in workspace after creating the synthetic demo club.
+
+![Clubdrop organizer dashboard for the demo club](screenshots/10-dashboard-with-club.png)
+
+### Campaign editor
+
+The authenticated editor for a reviewed draft, with the Issue template selected.
+
+![Clubdrop campaign editor with the Issue template selected](screenshots/15-campaign-editor.png)
+
+### Buyer campaign page
+
+The Issue template — the strongest buyer-facing renderer — served from structured campaign data (no LLM on buyer routes).
+
+![Clubdrop Issue-template public campaign page](screenshots/04-demo-issue-campaign-desktop.png)
+
+### Preorder roster
+
+The organizer roster with one synthetic preorder, product/option totals, status controls, and CSV/XLSX export.
+
+![Clubdrop preorder roster with a single synthetic preorder](screenshots/16-roster.png)

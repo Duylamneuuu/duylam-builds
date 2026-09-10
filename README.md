@@ -7,17 +7,17 @@ A public showcase of selected product and engineering work. Source repositories 
 ### GiaoTrinh
 Student marketplace / exchange product focused on study materials and campus use cases.
 
-[Portfolio folder](./giaotrinh/README.md) · _evidence being curated_
+[Read the case study](./giaotrinh/case-study.md) · [portfolio folder](./giaotrinh/README.md)
 
 ### Clubdrop
 AI-assisted merch preorder campaign builder for student clubs. AI structures messy organizer input into a reviewable draft; organizers remain in control of prices, deadlines, publishing, and buyer operations.
 
-[Read the case study](./clubdrop/case-study.md) · _visual assets being curated_
+[Read the case study](./clubdrop/case-study.md)
 
 ### SushiLoop
 Unity mobile puzzle competition prototype developed with extensive AI-assisted workflows.
 
-[Portfolio folder](./sushiloop/README.md) · _gameplay evidence being curated_
+[Read the case study](./sushiloop/case-study.md) · [portfolio folder](./sushiloop/README.md)
 
 ## Open source
 
