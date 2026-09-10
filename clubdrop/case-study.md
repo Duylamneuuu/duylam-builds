@@ -30,34 +30,40 @@ The strongest story is the full workflow:
 
 ## Screenshots
 
-Captured from the development Worker. Authenticated organizer screens use a synthetic club (`Campus Creative Demo Club`) and one synthetic preorder (`Demo Buyer` / `0900000000`); the organizer email was cropped out. These are development/demo frames, not a production-launch or traction claim.
+Captured from the live development Worker (`clubdrop-dev`). Buyer frames are public template demos. The AI-review frame uses a synthetic club only; no real buyer PII. These are development/demo frames, not a production-launch or traction claim.
 
-### Required human review (core AI story)
+### Hero — Issue template (buyer page)
 
-The organizer must confirm authoritative details — price, deadline, payment, pickup, and confirmation — after a single AI structuring pass, before anything is saved.
+Editorial magazine layout: masthead, product photography, deadline, and no-account CTA. Served from structured campaign data with zero LLM on the buyer route.
 
-![Clubdrop AI review screen requiring organizer confirmation of price, deadline, payment and pickup](screenshots/14-ai-review-required.png)
+![Clubdrop Issue-template buyer campaign page](screenshots/01-hero-issue.png)
 
-### Organizer dashboard
+### Template range — Commons
 
-Signed-in workspace after creating the synthetic demo club.
+Lifestyle lookbook direction; proves templates are distinct, not skins.
 
-![Clubdrop organizer dashboard for the demo club](screenshots/10-dashboard-with-club.png)
+![Clubdrop Commons-template buyer campaign page](screenshots/02-template-commons.png)
 
-### Campaign editor
+### Template range — Atelier
 
-The authenticated editor for a reviewed draft, with the Issue template selected.
+Quiet premium split: typography + product flat-lay.
 
-![Clubdrop campaign editor with the Issue template selected](screenshots/15-campaign-editor.png)
+![Clubdrop Atelier-template buyer campaign page](screenshots/03-template-atelier.png)
 
-### Buyer campaign page
+### Template range — Signal
 
-The Issue template — the strongest buyer-facing renderer — served from structured campaign data (no LLM on buyer routes).
+High-contrast poster energy for campus drops.
 
-![Clubdrop Issue-template public campaign page](screenshots/04-demo-issue-campaign-desktop.png)
+![Clubdrop Signal-template buyer campaign page](screenshots/04-template-signal.png)
 
-### Preorder roster
+### Template range — Index
 
-The organizer roster with one synthetic preorder, product/option totals, status controls, and CSV/XLSX export.
+Product-grid collection page with preorder CTA.
 
-![Clubdrop preorder roster with a single synthetic preorder](screenshots/16-roster.png)
+![Clubdrop Index-template buyer campaign page](screenshots/05-template-index.png)
+
+### Supporting — required human review
+
+After one AI structuring pass, the organizer must confirm price, deadline, payment, pickup, and confirmation before creating a reviewed draft. This is the constrained-AI story, not a buyer-facing hero.
+
+![Clubdrop organizer review confirming price deadline payment and pickup](screenshots/14-ai-review-required.png)
