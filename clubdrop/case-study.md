@@ -10,6 +10,15 @@
 
 AI is allowed to **structure** messy club notes into a draft. It is **not** allowed to publish price, deadline, payment, or pickup without a human review. Public buyer pages are **zero-LLM** and use **five fixed templates** (not generated websites).
 
+
+## Demo
+
+[~62s · 1080p · English](demo/clubdrop-buyer-demo.mp4) — public buyer path only (no login). Synthetic demo data.
+
+Home → Issue template → Commons/Signal contrast → preorder → confirmation.
+
+Captions: [captions.vtt](demo/captions.vtt) · Chapters: [chapters.json](demo/chapters.json)
+
 ## Problem
 
 Clubs still run drops through a chat post + Google Form + spreadsheet + DMs. Discovery is messy, details go stale, and there is no clean public page for buyers.

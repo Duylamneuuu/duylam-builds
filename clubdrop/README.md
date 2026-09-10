@@ -7,6 +7,6 @@ AI-assisted merch preorder campaigns for student clubs — constrained AI drafts
 <img src="screenshots/06-organizer-review-publish.png" alt="Organizer review before publish" width="48%" />
 </p>
 
-**Read:** [case-study.md](./case-study.md)
+**Demo:** [buyer walkthrough (~62s)](demo/clubdrop-buyer-demo.mp4) · **Read:** [case-study.md](./case-study.md)
 
 Buyer templates + organizer AI → review → roster. Private source. Portfolio-safe screenshots only.
