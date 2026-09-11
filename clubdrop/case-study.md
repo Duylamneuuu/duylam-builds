@@ -8,8 +8,7 @@
 
 ## The decision that matters
 
-AI is allowed to **structure** messy club notes into a draft. It is **not** allowed to publish price, deadline, payment, or pickup without a human review. Public buyer pages are **zero-LLM** and use **five fixed templates** (not generated websites).
-
+AI is allowed to **structure** messy club notes into a draft. It is **not** allowed to publish price, deadline, payment, or pickup without a human review. Public buyer pages are **zero-LLM** and use **five fixed templates** (not generated websites). This showcase includes four rendered buyer pages; the organizer review capture shows the complete five-template picker, including Index.
 
 ## Demo
 
@@ -45,9 +44,11 @@ Demo-ready on a development Worker. Closed-beta prep in progress. **Not** a prod
 
 ## Screenshots
 
-Live `clubdrop-dev` Worker. Synthetic Keybound Club / Campus Creative Demo Club data.
+Captured from the development `clubdrop-dev` Worker. Synthetic Keybound Club / Campus Creative Demo Club data.
 
-### Buyer — fixed templates
+### Buyer — selected fixed-template outputs
+
+The implementation has five fixed templates. Four rendered buyer pages are shown below; the organizer review capture further down shows all five available options, including Index.
 
 | Issue (hero) | Commons |
 | --- | --- |
@@ -58,15 +59,17 @@ Live `clubdrop-dev` Worker. Synthetic Keybound Club / Campus Creative Demo Club 
 
 ### Organizer — AI drafts, human decides
 
+These curated organizer views are supporting workflow evidence: setup, review/template selection, and roster/export. The buyer pages above are the public-facing output.
+
 <p>
-<img src="screenshots/05-organizer-ai-setup.png" alt="Organizer AI setup: notes into draft" width="48%" />
-<img src="screenshots/06-organizer-review-publish.png" alt="Organizer review before publish + template pick" width="48%" />
+<img src="screenshots/05-organizer-ai-setup.png" alt="Organizer AI setup: campaign notes into an editable draft" width="48%" />
+<img src="screenshots/06-organizer-review-publish.png" alt="Organizer review, five-template picker, and publish control" width="48%" />
 </p>
 
 <p>
-<img src="screenshots/07-organizer-roster.png" alt="Organizer preorder roster" width="640" />
+<img src="screenshots/07-organizer-roster.png" alt="Organizer preorder roster with export controls" width="640" />
 </p>
 
 1. **AI setup** — paste campaign notes; AI is optional; manual setup always available  
-2. **Review / publish** — organizer keeps template, price, and publish control after a reviewed draft  
+2. **Review / publish** — organizer retains template, price, and publish control after a reviewed draft  
 3. **Roster** — synthetic buyer preorder after publish (demo data only)
