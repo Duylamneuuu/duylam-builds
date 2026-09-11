@@ -6,4 +6,4 @@ Before publishing an asset, confirm that it contains no credentials, tokens, env
 
 Use synthetic/demo data in screenshots whenever possible. Re-upload third-party visual assets only when their license permits public redistribution. Raw evidence packs, internal test dumps, and development logs should stay in the private project repositories.
 
-Each featured project should ultimately contain only a concise case study, 3–5 strong screenshots, and optionally one short demo video.
+Each featured project should contain a concise case study, a clear hero, 3–5 primary screenshots, optional supporting workflow frames (up to 7 total), and optionally one short demo video. The README should lead with the strongest product-facing visual; supporting workflow evidence belongs below the hero.
